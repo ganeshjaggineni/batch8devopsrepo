@@ -6,10 +6,12 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
+}
 	 stage('cyberweb') {
             steps {
                 echo 'Hello batch8'
             }
+}
 	stage('continue project') {
             steps {
                 echo 'project deployed succesfully'
